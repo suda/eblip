@@ -1,0 +1,7 @@
+#!/bin/bash
+date
+for ((i=0;i<50;i+=1)); do
+    /usr/bin/php ~/eblip/get_mail.php
+    sleep 10s
+done
+date
